@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="326.5" y="134.0">be.cocoding.training.patterns.construction.abstractfactory.factory.TechnoFactory</node>
+    <node x="112.0" y="64.0">be.cocoding.training.patterns.construction.abstractfactory.factory.AbstractFactory</node>
+    <node x="591.0" y="64.0">be.cocoding.training.patterns.construction.abstractfactory.models.Resume</node>
+    <node x="600.0" y="-16.0">be.cocoding.training.patterns.construction.abstractfactory.Client</node>
+    <node x="-95.0" y="134.0">be.cocoding.training.patterns.construction.abstractfactory.factory.ModernFactory</node>
+    <node x="112.0" y="-16.0">be.cocoding.training.patterns.construction.abstractfactory.factory.FactoryProducer</node>
+    <node x="118.5" y="134.0">be.cocoding.training.patterns.construction.abstractfactory.factory.ClassicFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="be.cocoding.training.patterns.construction.abstractfactory.factory.ClassicFactory" target="be.cocoding.training.patterns.construction.abstractfactory.factory.AbstractFactory" relationship="REALIZATION">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="be.cocoding.training.patterns.construction.abstractfactory.factory.ModernFactory" target="be.cocoding.training.patterns.construction.abstractfactory.factory.AbstractFactory" relationship="REALIZATION">
+      <point x="-0.0" y="-16.0" />
+      <point x="-5.0" y="80.0" />
+      <point x="-93.0" y="-0.0" />
+    </edge>
+    <edge source="be.cocoding.training.patterns.construction.abstractfactory.factory.TechnoFactory" target="be.cocoding.training.patterns.construction.abstractfactory.factory.AbstractFactory" relationship="REALIZATION">
+      <point x="-0.0" y="-16.0" />
+      <point x="415.0" y="80.0" />
+      <point x="93.0" y="-0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="1.0" showDependencies="false" x="457.0" y="190.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
